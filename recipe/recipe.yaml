@@ -62,7 +62,6 @@ requirements:
     - ninja
     - pkg-config
     - gobject-introspection
-    - python
     - glib
     - gperf
     - gettext
@@ -78,9 +77,6 @@ requirements:
     - libfyaml
     - libxmlb
     - gobject-introspection
-    - python
-  run:
-    - python
   run_exports:
     - ${{ pin_subpackage('appstream', upper_bound='x.x') }}
 
